@@ -10,7 +10,7 @@ class HeliumTerminal < Formula
 
   bottle do
     root_url "https://github.com/yowmamasita/helium-terminal/releases/download/v0.1.0"
-    sha256 cellar: :any_skip_relocation, arm64_ventura: "097b37a18c2f6cae53cc50678cdb723ff4ba3b00b9c2a7adb9cad65a74abe443"
+    sha256 cellar: :any_skip_relocation, arm64_ventura: "c340e0dc61c03551a119475889f5c20de15e5d5057b41b221a984aef5b131520"
   end
 
   depends_on arch: :arm64
