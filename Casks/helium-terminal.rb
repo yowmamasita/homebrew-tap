@@ -1,6 +1,6 @@
 cask "helium-terminal" do
-  version "0.1.1"
-  sha256 "094329035e39ef16465a8d895d03fb43d96aeef0b90ab6417fb4948f17ba21cf"
+  version "0.1.2"
+  sha256 "7d301d8f5395f051d58eb94991f782d4c23f961aa78adfb98364322ba66aca25"
 
   url "https://github.com/yowmamasita/helium-terminal/releases/download/v#{version}/helium-terminal-#{version}-macos-arm64.zip"
   name "Helium Terminal"
