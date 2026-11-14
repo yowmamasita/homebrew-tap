@@ -4,13 +4,13 @@
 class HeliumTerminal < Formula
   desc "Lightweight libghostty terminal with vertical tabs for coding agents"
   homepage "https://github.com/yowmamasita/helium-terminal"
-  url "https://github.com/yowmamasita/helium-terminal/archive/refs/tags/v0.1.11.tar.gz"
-  sha256 "6aad0e4337866600987cc33f379ed5c789b67f2260ee368556abb01b2d8cb747"
+  url "https://github.com/yowmamasita/helium-terminal/archive/refs/tags/v0.1.12.tar.gz"
+  sha256 "98557b5e9db9674f2fe5b3d3157ffff8450113eafd6834e50d735580f9df9b91"
   license "MIT"
 
   bottle do
-    root_url "https://github.com/yowmamasita/helium-terminal/releases/download/v0.1.11"
-    sha256 cellar: :any_skip_relocation, arm64_ventura: "c456f690fa832a759af56cdb4bbb4cdc3e40388dea25f085be61d7724bf19e43"
+    root_url "https://github.com/yowmamasita/helium-terminal/releases/download/v0.1.12"
+    sha256 cellar: :any_skip_relocation, arm64_ventura: "54f521f19db12708679e607a16a5068a72d55a1f6d7eb1cb71a7cd3ff809e846"
   end
 
   depends_on arch: :arm64
